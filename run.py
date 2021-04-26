@@ -1,21 +1,4 @@
 """
-    Source: https://keras.io/examples/nlp/addition_rnn/
-
-    In this example, we train a model to learn to add two numbers, provided as strings.
-
-    Example:
-
-        Input: "535+61"
-        Output: "596"
-
-    Input may optionally be reversed, which was shown to increase performance in many tasks in: Learning to Execute and [Sequence to Sequence Learning with Neural Networks](
-
-    http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)
-
-    Theoretically, sequence order inversion introduces shorter term dependencies between source and target for this problem.
-"""
-
-"""
     Setup
 """
 from tensorflow import keras
